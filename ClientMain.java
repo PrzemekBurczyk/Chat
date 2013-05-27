@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Main extends JApplet{
+public class ClientMain extends JApplet{
 
-    public Main(){
+    public ClientMain(){
         try{
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception e){
